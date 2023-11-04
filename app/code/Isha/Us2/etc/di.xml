@@ -12,4 +12,8 @@
         <plugin name="header_footer_plugin" type="Isha\Us2\Plugin\HeaderFooterPlugin" sortOrder="30"/>
     </type>
 
+    <type name="Magento\Theme\Block\Html\Breadcrumbs">
+        <plugin name="breadcrumbs_plugin" type="Isha\Us2\Plugin\BreadcrumbsPlugin"/>
+    </type>
+
 </config>

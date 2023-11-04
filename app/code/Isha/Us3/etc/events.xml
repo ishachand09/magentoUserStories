@@ -5,6 +5,9 @@
         <observer name="log_product_view" instance="Isha\Us3\Observer\LogProductView" />
     </event>
 
+    <event name="controller_front_send_response_before">
+        <observer name="log_page_load" instance="Isha\Us3\Observer\LogPageLoad" />
+    </event>
 
 </config>
 

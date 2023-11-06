@@ -5,6 +5,13 @@
         <referenceContainer name="product.info.main">
             <block class="Isha\Us7\Block\Message" name="custom_message" template="Isha_Us7::custom_message.phtml" before="product.info.price" />
         </referenceContainer>
+
+        <!-- <referenceContainer name="content">
+            <action method="setLayout">
+                <argument name="layout" xsi:type="string">3columns</argument>
+            </action>
+        </referenceContainer> -->
+
     </body>
 
 </page>

@@ -18,10 +18,10 @@ class HelloWorld extends Action
 
     public function execute()
     {
-        $resultPage = $this->resultPageFactory->create();
-        $resultPage->getConfig()->getTitle()->set("Hello World");
-        return $resultPage;
+        // $resultPage = $this->resultPageFactory->create();
+        // $resultPage->getConfig()->getTitle()->set("Hello World");
+        // return $resultPage;
         // echo "Hello World";
-        // return $this->resultRedirectFactory->create()->setPath('catalog/product/view/id/31');
+        return $this->resultRedirectFactory->create()->setPath('catalog/product/view/id/15');
     }
 }

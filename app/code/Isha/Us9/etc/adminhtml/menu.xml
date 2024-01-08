@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+
+    <menu>
+        <add id="Isha_Us9::custom_menu" title="Custom Menu" module="Isha_Us9" sortOrder="200" resource="Magento_Backend::content" />
+
+        <add id="Isha_Us9::custom_submenu" title="Custom Submenu" module="Isha_Us9" sortOrder="10" parent="Isha_Us9::custom_menu" action="us9/custom/index" resource="Magento_Backend::content"/>
+    </menu>
+
+</config>
